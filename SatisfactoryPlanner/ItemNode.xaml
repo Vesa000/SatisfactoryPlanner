@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="SatisfactoryPlanner.ItemNode"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SatisfactoryPlanner"
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="50">
+    <Grid Height="50" Width="50" MouseLeftButtonDown="itemNode_MouseLeftButtonDown">
+        <Canvas>
+            <Canvas.ToolTip>
+                <ToolTip>
+                    <StackPanel>
+                        <TextBlock Name="ResourceNameTooltipText" Text="Recource name"/>
+                        <TextBlock Text="Drag to make new connection"/>
+                    </StackPanel>
+                </ToolTip>
+            </Canvas.ToolTip>
+                <Rectangle Height="40" Width="40" Stroke="Black" Fill="White" Margin="5"/>
+            <Image Name="image" Width="30" Height="30" Canvas.Top="5" Canvas.Left="10" Source="Content/Images/HeavyModularFrame.png"/>
+            <TextBlock Name="speedText" Canvas.Top="30" Width="50" TextAlignment="Center" Text="60/m"/>
+        </Canvas>
+    </Grid>
+</UserControl>

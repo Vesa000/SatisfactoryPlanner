@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="SatisfactoryPlanner.RecipeNode"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SatisfactoryPlanner"
+             mc:Ignorable="d" 
+             d:DesignHeight="150" d:DesignWidth="250">
+    <Grid Name="grid" Height="150" Width="250" MouseMove="RecipeNode_MouseMove">
+        <Grid.ContextMenu>
+            <ContextMenu>
+                <MenuItem Header="Delete node" Click="DeleteNode_Click"/>
+                <MenuItem>
+                    <MenuItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBox Name="ItemRateText" Width="50" TextChanged="ItemRateText_TextChanged"/>
+                            <TextBlock Text="/m"/>
+                        </StackPanel>
+                    </MenuItem.Header>
+                </MenuItem>
+            </ContextMenu>
+        </Grid.ContextMenu>
+        <Canvas>
+            <Canvas.ToolTip>
+                <ToolTip>
+                    <TextBlock Text="drag to move Right click to edit"/>
+                </ToolTip>
+            </Canvas.ToolTip>
+            <Rectangle Name="rectangle" Canvas.Top="25" Canvas.Left="25" Height="100" Width="200" Fill="Gray" RadiusX="10" RadiusY="10" StrokeThickness="2"/>
+
+            <TextBlock Name="recipeText" Canvas.Top=" 50" Canvas.Left="25" Width="200" TextAlignment="Center" Text="Iron plate"></TextBlock>
+            <TextBlock Name="deviceText" Canvas.Top=" 70" Canvas.Left="25" Width="200" TextAlignment="Center" Text="2.25 Assembler"></TextBlock>
+
+            <Grid Width="200" Canvas.Top="100" Canvas.Left="25">
+                <StackPanel Name="inPanel" Width="auto" Orientation="Horizontal" HorizontalAlignment="Center">
+                </StackPanel>
+            </Grid>
+
+            <Grid Width="200" Canvas.Top="0" Canvas.Left="25">
+                <StackPanel Name="outPanel" Width="auto" Orientation="Horizontal" HorizontalAlignment="Center">
+                </StackPanel>
+            </Grid>
+        </Canvas>
+    </Grid>
+</UserControl>

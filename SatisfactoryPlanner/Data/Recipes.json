@@ -1,0 +1,1070 @@
+[
+  {
+    "Name": "Iron ingot",
+    "In": [
+      {
+        "Item": "IronOre",
+        "Pieces": 1
+      }
+    ],
+    "Out": [
+      {
+        "Item": "IronIngot",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Smelter",
+    "CraftTime": 2
+  },
+
+  {
+    "Name": "Iron plate",
+    "In": [
+      {
+        "Item": "IronIngot",
+        "Pieces": 2
+      }
+    ],
+    "Out": [
+      {
+        "Item": "IronPlate",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Constructor",
+    "CraftTime": 4
+  },
+
+  {
+    "Name": "Iron rod",
+    "In": [
+      {
+        "Item": "IronIngot",
+        "Pieces": 1
+      }
+    ],
+    "Out": [
+      {
+        "Item": "IronRod",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Constructor",
+    "CraftTime": 4
+  },
+
+  {
+    "Name": "Copper ingot",
+    "In": [
+      {
+        "Item": "CopperOre",
+        "Pieces": 1
+      }
+    ],
+    "Out": [
+      {
+        "Item": "CopperIngot",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Smelter",
+    "CraftTime": 2
+  },
+
+  {
+    "Name": "Wire",
+    "In": [
+      {
+        "Item": "CopperIngot",
+        "Pieces": 1
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Wire",
+        "Pieces": 3
+      }
+    ],
+    "Device": "Constructor",
+    "CraftTime": 4
+  },
+
+  {
+    "Name": "Cable",
+    "In": [
+      {
+        "Item": "Wire",
+        "Pieces": 2
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Cable",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Constructor",
+    "CraftTime": 4
+  },
+
+  {
+    "Name": "Biomass(Mycelia)",
+    "In": [
+      {
+        "Item": "Mycelia",
+        "Pieces": 10
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Biomass",
+        "Pieces": 10
+      }
+    ],
+    "Device": "Constructor",
+    "CraftTime": 4
+  },
+
+  {
+    "Name": "Biomass(Wood)",
+    "In": [
+      {
+        "Item": "Wood",
+        "Pieces": 5
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Biomass",
+        "Pieces": 25
+      }
+    ],
+    "Device": "Constructor",
+    "CraftTime": 4
+  },
+
+  {
+    "Name": "Biomass(Leaves)",
+    "In": [
+      {
+        "Item": "Leaves",
+        "Pieces": 10
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Biomass",
+        "Pieces": 6
+      }
+    ],
+    "Device": "Constructor",
+    "CraftTime": 4
+  },
+
+  {
+    "Name": "Biomass(Alien carapace)",
+    "In": [
+      {
+        "Item": "AlienCarapace",
+        "Pieces": 100
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Biomass",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Constructor",
+    "CraftTime": 4
+  },
+
+  {
+    "Name": "Concrete",
+    "In": [
+      {
+        "Item": "Limestone",
+        "Pieces": 3
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Concrete",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Constructor",
+    "CraftTime": 4
+  },
+
+  {
+    "Name": "Screw",
+    "In": [
+      {
+        "Item": "IronRod",
+        "Pieces": 1
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Screw",
+        "Pieces": 6
+      }
+    ],
+    "Device": "Constructor",
+    "CraftTime": 4
+  },
+
+  {
+    "Name": "Reinforced iron plate",
+    "In": [
+      {
+        "Item": "IronPlate",
+        "Pieces": 4
+      },
+      {
+        "Item": "Screw",
+        "Pieces": 24
+      }
+    ],
+    "Out": [
+      {
+        "Item": "ReinforcedIronPlate",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Assembler",
+    "CraftTime": 12
+  },
+  {
+    "Name": "Biofuel",
+    "In": [
+      {
+        "Item": "Biomass",
+        "Pieces": 4
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Biofuel",
+        "Pieces": 2
+      }
+    ],
+    "Device": "Constructor",
+    "CraftTime": 4
+  },
+
+  {
+    "Name": "Rotor",
+    "In": [
+      {
+        "Item": "IronRod",
+        "Pieces": 3
+      },
+      {
+        "Item": "Screw",
+        "Pieces": 22
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Rotor",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Assempler",
+    "CraftTime": 10
+  },
+
+  {
+    "Name": "Modular frame",
+    "In": [
+      {
+        "Item": "IronRod",
+        "Pieces": 6
+      },
+      {
+        "Item": "ReinforcedIronPlate",
+        "Pieces": 3
+      }
+    ],
+    "Out": [
+      {
+        "Item": "ModularFrame",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Assempler",
+    "CraftTime": 15
+  },
+
+  {
+    "Name": "Fabric",
+    "In": [
+      {
+        "Item": "Mycelia",
+        "Pieces": 1
+      },
+      {
+        "Item": "Leaves",
+        "Pieces": 2
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Fabric",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Assempler",
+    "CraftTime": 4
+  },
+
+  {
+    "Name": "Steel ingot",
+    "In": [
+      {
+        "Item": "IronOre",
+        "Pieces": 3
+      },
+      {
+        "Item": "Coal",
+        "Pieces": 3
+      }
+    ],
+    "Out": [
+      {
+        "Item": "SteelIngot",
+        "Pieces": 2
+      }
+    ],
+    "Device": "Foundry",
+    "CraftTime": 4
+  },
+
+  {
+    "Name": "Steel beam",
+    "In": [
+      {
+        "Item": "SteelIngot",
+        "Pieces": 3
+      }
+    ],
+    "Out": [
+      {
+        "Item": "SteelBeam",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Constructor",
+    "CraftTime": 6
+  },
+
+  {
+    "Name": "Steel pipe",
+    "In": [
+      {
+        "Item": "SteelIngot",
+        "Pieces": 1
+      }
+    ],
+    "Out": [
+      {
+        "Item": "SteelPipe",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Constructor",
+    "CraftTime": 4
+  },
+
+  {
+    "Name": "Encased industrial beam",
+    "In": [
+      {
+        "Item": "SteelBeam",
+        "Pieces": 4
+      },
+      {
+        "Item": "Concrete",
+        "Pieces": 5
+      }
+    ],
+    "Out": [
+      {
+        "Item": "EncasedIndustrialBeam",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Assembler",
+    "CraftTime": 15
+  },
+
+  {
+    "Name": "Stator",
+    "In": [
+      {
+        "Item": "SteelPipe",
+        "Pieces": 3
+      },
+      {
+        "Item": "Wire",
+        "Pieces": 10
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Stator",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Assembler",
+    "CraftTime": 10
+  },
+
+  {
+    "Name": "Motor",
+    "In": [
+      {
+        "Item": "Rotor",
+        "Pieces": 2
+      },
+      {
+        "Item": "Stator",
+        "Pieces": 2
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Motor",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Assembler",
+    "CraftTime": 12
+  },
+
+  {
+    "Name": "Heavy modular frame",
+    "In": [
+      {
+        "Item": "ModularFrame",
+        "Pieces": 5
+      },
+      {
+        "Item": "SteelPipe",
+        "Pieces": 15
+      },
+      {
+        "Item": "EncasedIndustrialBeam",
+        "Pieces": 5
+      },
+      {
+        "Item": "Screw",
+        "Pieces": 90
+      }
+    ],
+    "Out": [
+      {
+        "Item": "HeavyModularFrame",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Manufacturer",
+    "CraftTime": 30
+  },
+
+  {
+    "Name": "Plastic",
+    "In": [
+      {
+        "Item": "CrudeOil",
+        "Pieces": 4
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Plastic",
+        "Pieces": 3
+      }
+    ],
+    "Device": "OilRefinery",
+    "CraftTime": 8
+  },
+
+  {
+    "Name": "Fuel",
+    "In": [
+      {
+        "Item": "CrudeOil",
+        "Pieces": 8
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Fuel",
+        "Pieces": 5
+      }
+    ],
+    "Device": "OilRefinery",
+    "CraftTime": 8
+  },
+
+  {
+    "Name": "Rubber",
+    "In": [
+      {
+        "Item": "CrudeOil",
+        "Pieces": 4
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Rubber",
+        "Pieces": 4
+      }
+    ],
+    "Device": "OilRefinery",
+    "CraftTime": 8
+  },
+
+  {
+    "Name": "Circuit board",
+    "In": [
+      {
+        "Item": "Wire",
+        "Pieces": 12
+      },
+      {
+        "Item": "Plastic",
+        "Pieces": 6
+      }
+    ],
+    "Out": [
+      {
+        "Item": "CircuitBoard",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Assembler",
+    "CraftTime": 12
+  },
+
+  {
+    "Name": "Computer",
+    "In": [
+      {
+        "Item": "CircuitBoard",
+        "Pieces": 5
+      },
+      {
+        "Item": "Cable",
+        "Pieces": 12
+      },
+      {
+        "Item": "Plastic",
+        "Pieces": 18
+      },
+      {
+        "Item": "Screw",
+        "Pieces": 60
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Computer",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Manufacturer",
+    "CraftTime": 32
+  },
+
+  {
+    "Name": "Caterium ingot",
+    "In": [
+      {
+        "Item": "CateriumOre",
+        "Pieces": 4
+      }
+    ],
+    "Out": [
+      {
+        "Item": "CateriumIngot",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Smelter",
+    "CraftTime": 4
+  },
+
+  {
+    "Name": "Quickwire",
+    "In": [
+      {
+        "Item": "CateriumIngot",
+        "Pieces": 1
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Quickwire",
+        "Pieces": 4
+      }
+    ],
+    "Device": "Constructor",
+    "CraftTime": 4
+  },
+
+  {
+    "Name": "A.I. Limiter",
+    "In": [
+      {
+        "Item": "CircuitBoard",
+        "Pieces": 1
+      },
+      {
+        "Item": "Quickwire",
+        "Pieces": 18
+      }
+    ],
+    "Out": [
+      {
+        "Item": "AILimiter",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Assembler",
+    "CraftTime": 12
+  },
+
+  {
+    "Name": "High Speed Connector",
+    "In": [
+      {
+        "Item": "Quickwire",
+        "Pieces": 40
+      },
+      {
+        "Item": "Cable",
+        "Pieces": 10
+      },
+      {
+        "Item": "Plastic",
+        "Pieces": 6
+      }
+    ],
+    "Out": [
+      {
+        "Item": "HighSpeedConnector",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Manufacturer",
+    "CraftTime": 24
+  },
+
+  {
+    "Name": "Supercomputer",
+    "In": [
+      {
+        "Item": "Computer",
+        "Pieces": 2
+      },
+      {
+        "Item": "AILimiter",
+        "Pieces": 2
+      },
+      {
+        "Item": "HighSpeedConnector",
+        "Pieces": 3
+      },
+      {
+        "Item": "Plastic",
+        "Pieces": 21
+      }
+    ],
+    "Out": [
+      {
+        "Item": "SuperComputer",
+        "Pieces": 1
+      }
+    ],
+    "Device": "Manufacturer",
+    "CraftTime": 32
+  },
+
+  {
+    "Name": "Iron ingot(Alternate)",
+    "In": [
+      {
+        "Item": "IronOre",
+        "Pieces": 1
+      },
+      {
+        "Item": "CopperOre",
+        "Pieces": 1
+      }
+    ],
+    "Out": [
+      {
+        "Item": "IronIngot",
+        "Pieces": 3
+      }
+    ],
+    "Device": "Smelter",
+    "CraftTime": 4
+  },
+
+  {
+    "Name": "Iron Wire(Alternate)",
+    "In": [
+      {
+        "Item": "IronIngot",
+        "Pieces": 2
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Wire",
+        "Pieces": 9
+      }
+    ],
+    "Device": "Constructor",
+    "CraftTime": 8
+  },
+
+  {
+    "Name": "Screw(Alternate)",
+    "In": [
+      {
+        "Item": "IronIngot",
+        "Pieces": 2
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Screw",
+        "Pieces": 12
+      }
+    ],
+    "Device": "Constructor",
+    "CraftTime": 8
+  },
+
+  {
+    "Name": "Reinforced Iron Plate(Alternate)",
+    "In": [
+      {
+        "Item": "IronPlate",
+        "Pieces": 10
+      },
+      {
+        "Item": "Screw",
+        "Pieces": 24
+      }
+    ],
+    "Out": [
+      {
+        "Item": "ReinforcedIronPlate",
+        "Pieces": 3
+      }
+    ],
+    "Device": "Assembler",
+    "CraftTime": 24
+  },
+
+  {
+    "Name": "Stitched Iron Plate(Alternate)",
+    "In": [
+      {
+        "Item": "IronPlate",
+        "Pieces": 6
+      },
+      {
+        "Item": "Wire",
+        "Pieces": 30
+      }
+    ],
+    "Out": [
+      {
+        "Item": "ReinforcedIronPlate",
+        "Pieces": 3
+      }
+    ],
+    "Device": "Assembler",
+    "CraftTime": 24
+  },
+
+  {
+    "Name": "Quickwire(Alternate)",
+    "In": [
+      {
+        "Item": "CateriumIngot",
+        "Pieces": 1
+      },
+      {
+        "Item": "CopperIngot",
+        "Pieces": 2
+      }
+    ],
+    "Out": [
+      {
+        "Item": "QuickWire",
+        "Pieces": 12
+      }
+    ],
+    "Device": "Constructor",
+    "CraftTime": 8
+  },
+
+  {
+    "Name": "Caterium Wire(Alternate)",
+    "In": [
+      {
+        "Item": "CateriumIngot",
+        "Pieces": 1
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Wire",
+        "Pieces": 9
+      }
+    ],
+    "Device": "Constructor",
+    "CraftTime": 8
+  },
+
+  {
+    "Name": "Heavy Modular Frame(Alternate)",
+    "In": [
+      {
+        "Item": "ModularFrame",
+        "Pieces": 8
+      },
+      {
+        "Item": "EncasedIndustrialBeam",
+        "Pieces": 10
+      },
+      {
+        "Item": "SteelPipe",
+        "Pieces": 36
+      },
+      {
+        "Item": "Concrete",
+        "Pieces": 25
+      }
+    ],
+    "Out": [
+      {
+        "Item": "HeavyModularFrame",
+        "Pieces": 3
+      }
+    ],
+    "Device": "Manufacturer",
+    "CraftTime": 64
+  },
+
+  {
+    "Name": "SteelIngot(Alternate)",
+    "In": [
+      {
+        "Item": "IronIngot",
+        "Pieces": 3
+      },
+      {
+        "Item": "Coal",
+        "Pieces": 6
+      }
+    ],
+    "Out": [
+      {
+        "Item": "SteelIngot",
+        "Pieces": 6
+      }
+    ],
+    "Device": "Foundry",
+    "CraftTime": 8
+  },
+
+  {
+    "Name": "Modular Frame(Alternate)",
+    "In": [
+      {
+        "Item": "ReinforcedIronPlate",
+        "Pieces": 6
+      },
+      {
+        "Item": "SteelPipe",
+        "Pieces": 6
+      }
+    ],
+    "Out": [
+      {
+        "Item": "ModularFrame",
+        "Pieces": 3
+      }
+    ],
+    "Device": "Assembler",
+    "CraftTime": 30
+  },
+
+  {
+    "Name": "Rotor(Alternate)",
+    "In": [
+      {
+        "Item": "SteelPipe",
+        "Pieces": 6
+      },
+      {
+        "Item": "Wire",
+        "Pieces": 20
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Rotor",
+        "Pieces": 3
+      }
+    ],
+    "Device": "Assembler",
+    "CraftTime": 20
+  },
+
+  {
+    "Name": "Stator(Alternate)",
+    "In": [
+      {
+        "Item": "SteelPipe",
+        "Pieces": 6
+      },
+      {
+        "Item": "QuickWire",
+        "Pieces": 25
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Stator",
+        "Pieces": 3
+      }
+    ],
+    "Device": "Assembler",
+    "CraftTime": 20
+  },
+
+  {
+    "Name": "Encased Industrial Beam(Alternate)",
+    "In": [
+      {
+        "Item": "SteelPipe",
+        "Pieces": 18
+      },
+      {
+        "Item": "Concrete",
+        "Pieces": 10
+      }
+    ],
+    "Out": [
+      {
+        "Item": "EncasedIndustrialBeam",
+        "Pieces": 3
+      }
+    ],
+    "Device": "Assembler",
+    "CraftTime": 30
+  },
+
+  {
+    "Name": "Rubber Cable(Alternate)",
+    "In": [
+      {
+        "Item": "Wire",
+        "Pieces": 3
+      },
+      {
+        "Item": "Rubber",
+        "Pieces": 2
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Cable",
+        "Pieces": 5
+      }
+    ],
+    "Device": "Assembler",
+    "CraftTime": 8
+  },
+
+  {
+    "Name": "Circuit Board(Alternate)",
+    "In": [
+      {
+        "Item": "Wire",
+        "Pieces": 24
+      },
+      {
+        "Item": "Rubber",
+        "Pieces": 16
+      }
+    ],
+    "Out": [
+      {
+        "Item": "CircuitBoard",
+        "Pieces": 3
+      }
+    ],
+    "Device": "Assembler",
+    "CraftTime": 24
+  },
+
+  {
+    "Name": "Caterium Circuit Board(Alternate)",
+    "In": [
+      {
+        "Item": "Plastic",
+        "Pieces": 12
+      },
+      {
+        "Item": "Quickwire",
+        "Pieces": 32
+      }
+    ],
+    "Out": [
+      {
+        "Item": "CircuitBoard",
+        "Pieces": 3
+      }
+    ],
+    "Device": "Assembler",
+    "CraftTime": 24
+  },
+
+  {
+    "Name": "Caterium Computer(Alternate)",
+    "In": [
+      {
+        "Item": "CircuitBoard",
+        "Pieces": 10
+      },
+      {
+        "Item": "Quickwire",
+        "Pieces": 112
+      },
+      {
+        "Item": "Rubber",
+        "Pieces": 48
+      }
+    ],
+    "Out": [
+      {
+        "Item": "Computer",
+        "Pieces": 3
+      }
+    ],
+    "Device": "Assembler",
+    "CraftTime": 64
+  }
+]
